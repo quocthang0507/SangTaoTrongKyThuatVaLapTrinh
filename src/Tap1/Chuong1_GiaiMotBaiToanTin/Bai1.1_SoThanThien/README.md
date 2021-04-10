@@ -15,7 +15,17 @@ Ví dụ:
 ```
 
 **Đặc tả:**
+
 (1) x = ab
+
 (2) a, b = 0..9 (a và b biến thiên trong khoảng 0..9)
+
 (3) a > 0 vì x là số có hai chữ số
+
 (4) (ab, ba) = 1
+
+Ta ký hiệu x' là số đối xứng của x theo nghĩa của đầu bài, khi đó ta có đặc tả như sau:
+
+(5) x = 10..99 (x biến thiên từ 10 đến 99, vì x là số có hai chữ số)
+
+(6) (x, x') = 1

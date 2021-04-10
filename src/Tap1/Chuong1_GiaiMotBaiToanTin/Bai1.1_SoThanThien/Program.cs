@@ -9,13 +9,15 @@ namespace Bai1._1_SoThanThien
 
 		static void Main(string[] args)
 		{
+			// Console.WriteLine(UCLN2(36, 6));
 			Run();
 			Console.ReadKey();
 		}
 
 		private static void Run()
 		{
-			int n = Find();
+			// int n = Find();
+			int n = Find2();
 			for (int i = 0; i < n; i++)
 			{
 				Console.Write(s[i] + " ");
@@ -30,6 +32,24 @@ namespace Bai1._1_SoThanThien
 			{
 				if (UCLN(x, SoDao(x)) == 1)
 					s[d++] = x;
+			}
+			return d;
+		}
+
+		private static int Find2()
+		{
+			int i, j, d = 0;
+			s[d++] = 0;
+			for (i = 1; i <= 9; i++)
+			{
+				for (j = 1; j < i; j++)
+				{
+					if (UCLN2(10 * i + j, 10 * j + i) == 1)
+					{
+						s[d++] = 10 * i + j;
+						s[d++] = 10 * j + i;
+					}
+				}
 			}
 			return d;
 		}
@@ -55,6 +75,11 @@ namespace Bai1._1_SoThanThien
 				b = r;
 			}
 			return a;
+		}
+
+		private static int UCLN2(int a, int b)
+		{
+			return b != 0 ? UCLN2(b, a % b) : a;
 		}
 	}
 }
