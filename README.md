@@ -1,2 +1,2 @@
-# SangTaoTrongKyThuatVaLapTrinh
-Tuyển tập mã nguồn trong Sáng tạo trong kỹ thuật và lập trình
+# SangTaoTrongThuatToanVaLapTrinh
+Tuyển tập mã nguồn trong Sáng tạo trong Thuật toán và Lập trình
