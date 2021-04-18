@@ -8,8 +8,8 @@ namespace Bai1._5_ChiaMangTyLe1_1
 		{
 			do
 			{
-				Run(10);
-				Console.Write("\nBam phim Enter de tiep tuc, bam phim T de thoat: ");
+				Run(20);
+				Console.Write("\nBam phim Enter de tiep tuc, bam phim bat ky de thoat: ");
 			} while (Console.ReadLine() == "");
 		}
 
@@ -24,7 +24,7 @@ namespace Bai1._5_ChiaMangTyLe1_1
 			else if (KiemTra(a, n, d))
 			{
 				Console.WriteLine("\nDoan thu nhat: 1..{0} ", d);
-				Console.WriteLine("\nDoan thu hai: {0}..{1} ", d + 1, n);
+				Console.WriteLine("Doan thu hai: {0}..{1} ", d + 1, n);
 			}
 			else
 				Console.WriteLine("\nLoi giai sai!");
@@ -69,9 +69,11 @@ namespace Bai1._5_ChiaMangTyLe1_1
 
 		private static void Print(int[] a, int n)
 		{
+			Console.WriteLine();
+			Console.WriteLine(new string('=', 5 * n));
 			foreach (var x in a)
 			{
-				Console.Write($"{x}\t");
+				Console.Write($"{x}    ");
 			}
 			Console.WriteLine();
 		}
@@ -84,6 +86,8 @@ namespace Bai1._5_ChiaMangTyLe1_1
 		private static void Gen(int[] a, int n)
 		{
 			Random random = new Random();
+
+			// Mat sap, sinh mang vo nghiem
 			if (random.Next(2) == 0)
 			{
 				// 1/2 so test la vo nghiem
@@ -91,7 +95,9 @@ namespace Bai1._5_ChiaMangTyLe1_1
 					a[i] = random.Next(n);
 				return;
 			}
-			int d = random.Next(n / 2) + 1; // Diem chia
+			
+			// Mat ngua, sinh mang co nghiem
+			int d = random.Next(n / 2) + 1; // Diem chia d nam trong khoang 1..n/2
 			int t = 0;
 			// Sinh doan a[0..d-1]
 			for (int i = 0; i < d; i++)
