@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.1_SinhNgauNhienTheoKho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.2_SinhNgauNhienTang", "Bai2.2_SinhNgauNhienTang\Bai2.2_SinhNgauNhienTang.csproj", "{2E06193A-4CC4-4EDB-A566-4263D7B12555}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.3_SinhHoanViNgauNhien", "Bai2.3_SinhHoanViNgauNhien\Bai2.3_SinhHoanViNgauNhien.csproj", "{E03228F3-B83A-4714-890F-046CB1C3DEA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2E06193A-4CC4-4EDB-A566-4263D7B12555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E06193A-4CC4-4EDB-A566-4263D7B12555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E06193A-4CC4-4EDB-A566-4263D7B12555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03228F3-B83A-4714-890F-046CB1C3DEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03228F3-B83A-4714-890F-046CB1C3DEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03228F3-B83A-4714-890F-046CB1C3DEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03228F3-B83A-4714-890F-046CB1C3DEA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
