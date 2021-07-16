@@ -8,6 +8,8 @@
 2. Sinh các phần tử a[i] tiếp theo theo cấp số cộng
 3. Ghi vào tệp
 
+Độ phức tạp: n
+
 ## Ví dụ kết quả
 
 ```
