@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai2.3_SinhHoanViNgauNhien"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai2.4_SinhNgauNhienDeu", "Bai2.4_SinhNgauNhienDeu\Bai2.4_SinhNgauNhienDeu.csproj", "{DFB81C07-5036-4711-85C6-E009D4152AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.5_SinhNgauNhienTyLe", "Bai2.5_SinhNgauNhienTyLe\Bai2.5_SinhNgauNhienTyLe.csproj", "{1AE38778-082B-4844-967A-EB3DB22EBA7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai2.5_SinhNgauNhienTyLe", "Bai2.5_SinhNgauNhienTyLe\Bai2.5_SinhNgauNhienTyLe.csproj", "{1AE38778-082B-4844-967A-EB3DB22EBA7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.6_SinhNgauNhienTepTang", "Bai2.6_SinhNgauNhienTepTang\Bai2.6_SinhNgauNhienTepTang.csproj", "{55C5224C-640B-4DBA-89E1-AFD4B2CA873B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai2.6_SinhNgauNhienTepTang", "Bai2.6_SinhNgauNhienTepTang\Bai2.6_SinhNgauNhienTepTang.csproj", "{55C5224C-640B-4DBA-89E1-AFD4B2CA873B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.7_SinhNgauNhienTepCapSoCong", "Bai2.7_SinhNgauNhienTepCapSoCong\Bai2.7_SinhNgauNhienTepCapSoCong.csproj", "{3F8C71D5-CDAC-4FAB-A307-83AD0D4A5D7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai2.7_SinhNgauNhienTepCapSoCong", "Bai2.7_SinhNgauNhienTepCapSoCong\Bai2.7_SinhNgauNhienTepCapSoCong.csproj", "{3F8C71D5-CDAC-4FAB-A307-83AD0D4A5D7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.8_SinhNgauNhienMangDoiXung", "Bai2.8_SinhNgauNhienMangDoiXung\Bai2.8_SinhNgauNhienMangDoiXung.csproj", "{781E9B0F-D902-42AA-9005-00E300D0DE14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bai2.8_SinhNgauNhienMangDoiXung", "Bai2.8_SinhNgauNhienMangDoiXung\Bai2.8_SinhNgauNhienMangDoiXung.csproj", "{781E9B0F-D902-42AA-9005-00E300D0DE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai2.9_SoDoCaoh", "Bai2.9_SoDoCaoh\Bai2.9_SoDoCaoh.csproj", "{22F3AB15-768C-40F0-B6CA-B6537273BDCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{781E9B0F-D902-42AA-9005-00E300D0DE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781E9B0F-D902-42AA-9005-00E300D0DE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781E9B0F-D902-42AA-9005-00E300D0DE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F3AB15-768C-40F0-B6CA-B6537273BDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F3AB15-768C-40F0-B6CA-B6537273BDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F3AB15-768C-40F0-B6CA-B6537273BDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F3AB15-768C-40F0-B6CA-B6537273BDCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
