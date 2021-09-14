@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai3.1_BangMaASCII", "Bai3.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai3.2_TuLoKho", "Bai3.2_TuLoKho\Bai3.2_TuLoKho.csproj", "{9142D38C-60C8-45AA-930D-39F6268CEDD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai3.4_TroChoi15", "Bai3.4_TroChoi15\Bai3.4_TroChoi15.csproj", "{9CADB7F5-A7CD-419F-A771-CA47E8CCA0C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9142D38C-60C8-45AA-930D-39F6268CEDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9142D38C-60C8-45AA-930D-39F6268CEDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9142D38C-60C8-45AA-930D-39F6268CEDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CADB7F5-A7CD-419F-A771-CA47E8CCA0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CADB7F5-A7CD-419F-A771-CA47E8CCA0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CADB7F5-A7CD-419F-A771-CA47E8CCA0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CADB7F5-A7CD-419F-A771-CA47E8CCA0C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

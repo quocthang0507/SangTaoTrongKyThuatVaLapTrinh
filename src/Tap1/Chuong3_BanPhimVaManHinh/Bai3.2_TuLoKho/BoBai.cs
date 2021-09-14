@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bai3._2_TuLoKho
 {
@@ -93,7 +89,7 @@ namespace Bai3._2_TuLoKho
 		{
 			string s = new(' ', DX);
 			Console.BackgroundColor = m;
-			for (int i = 0; i <= DY ; i++)
+			for (int i = 0; i <= DY; i++)
 			{
 				WriteAt(s, x + 1, y + i);
 			}
